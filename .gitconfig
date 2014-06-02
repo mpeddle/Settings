@@ -1,0 +1,9 @@
+[user]
+	name = Matthew Peddle
+	email = matthew.t.peddle@gmail.com
+[core]
+	editor = vim
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
