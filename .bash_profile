@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:~/bin:~/Code/scripts
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:~/bin:~/Code/scripts:/usr/local/go/bin
 
 [[ -s /Users/mpeddle/.nvm/nvm.sh ]] && . /Users/mpeddle/.nvm/nvm.sh # This loads NVM
 
@@ -34,7 +34,7 @@ function killmatch {
 ### ALIASES
 ###---------------------------------------------------------------------------
 
-alias cdh='cd /srv/venvs/hukkster/'
+alias cdm='cd /Users/mpeddle/Projects/modalyst/modalyst'
 
 alias sudo='sudo '     # allows you to pass aliases to sudo
 alias rm='rm -iv'
@@ -109,13 +109,27 @@ export PS1='\W \u$ '
 export TERM="xterm-256color"
 
 # replace diff w/ colorizediff
-alias diff="colordiff"
+#alias diff="colordiff"
 
 # History configuration
 export HISTFILESIZE=100000
-export HISTSIZE=10000
+export HISTSIZE=100000
 export HISTCONTROL=erasedups
 
 #modalyst config
-alias cdmod='cd ~/PyCharmProjects/modalyst_django'
-alias modssh='cdmod; vagrant ssh'
+alias cdmod='cd ~/Projects/modalyst/modalyst'
+alias gomod='cdmod; source ../bin/activate'
+
+#postgres
+alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+alias pg-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+
+#alias memory_usage='ps -u $USER -o pcpu,rss | awk 'NR>1' | awk '\''{cpu += $1; rss += $2} END {print cpu, rss}'\'''
+
+export NEW_RELIC_DISABLE='TRUE'
+source ~/git-complete.bash
+source ~/.profile
+export GOPATH=$HOME/go
+export GOROOT=/usr/local/go/bin/go
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/sbin 

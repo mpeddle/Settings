@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/Users/mpeddle/.gem'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/mpeddle/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/Project/static/js'
+let g:netrw_dirhist_2='/Users/mpeddle/Desktop/Work/CompassRock/PCVST Data Warehouse/batch/reporting/RDE'
+let g:netrw_dirhist_3='/Users/mpeddle/Desktop/Work/CompassRock/db'
+let g:netrw_dirhist_4='/Users/mpeddle/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/data'
+let g:netrw_dirhist_5='/Users/mpeddle/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/flatpages'

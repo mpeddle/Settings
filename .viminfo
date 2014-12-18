@@ -8,57 +8,57 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/designer
+~MSle0~/PaymentRecord
 
 # Last Substitute Search Pattern:
-~MSle0&designer
+~MSle0&>
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:q
-:w ~/Desktop/todos2.txt
-:w
-:noh
-:'<,'>s/designer/boutique/g
-:set paste
 :wq
-:help
-:e ~/.vimrc
+:w
 :W
-:e ~/Code/code_blocks_projects/test.cpp
-:Explore
-:e static_collected/templates2/front_base2.html
-:e static_collected/site_media/css/
-:e static_collected/templates2/includes/
-:cd modalyst_django/modalyst/modalyst/modalyst/
-:cd ~/PycharmProjects/
-:e ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/
-:e ~/Desktop/test.json
-:%s/$/,/g
+:e file_stuff.py
+:q
+:q!
+:e ~/.ssh/keys
+:e modalyst/main2/urls.py
+:bd
+:e modalyst/settings_local.py.TEMPLATE
+:e modalyst/settings_local.py
+:e modalyst/static_collected/templates2/admin/
+:e modalyst/main2/util/littlebro.py
+:Q
+:set nonu
+:nonu
+:noh
+:set paste
+:Set paste
+:w!
 
 # Search String History (newest to oldest):
-? designer
-?/open_dir
-?/color
-?/return
-?/ocean
-?/Tif
-? $
-? \t\(.*\)
-? \t*
-? \t+
-? modalyst.co/managemodalyst/main2/boutique/
-? ^\(.*\)
-? "
-? }}
-? "properties":{
-? "time"
-? "event"
 ? \s\+$
-?/tiffany
-? ,
+?/PaymentRecord
+?/paypal
+?/splash_click
+?/ItemForm
+?/DesignerPublic
+?/splash
+?/static
+?/site_media
+?/MEDIA
+?/staticfiles
+?/templates
+?/===
+?/==
+?/GOROOT
+?/time":14
+?/t
+?/timestamp
+?/2014
+?/201
 
 # Expression History (newest to oldest):
 
@@ -67,1105 +67,561 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
-	match_designer(categories, number=10):
-	    """
-	        return ranked designer results
-	    """
-"1	LINE	0
-	
+"0	LINE	0
+	        self.assertTrue(os.path.exists(name), "File not created")
+""1	LINE	0
+	        self.fail()
 "2	LINE	0
-	
+	        self.assert
 "3	LINE	0
-	
+	        f.close()
 "4	LINE	0
-	
+	        f = open(name, "w")
 "5	LINE	0
-	
+	        name = "blah"
 "6	LINE	0
-	!! check to see whether discount functionality is implemented
+	        self.fail()
 "7	LINE	0
-	!! check in with blue @ 3-4PM EST
+	    def test_delete(self):
 "8	LINE	0
-	!! re-check js tickets
+	
 "9	LINE	0
-	!! re-check js tickets
+	
 "a@	CHAR	0
-	0wwwir0j
+	GA€kbpi
+"q	CHAR	0
+	/subvwwwdxjjj0
+"v	CHAR	0
+	jjjkkk
+"w	CHAR	0
+	
 "-	CHAR	0
-	boutique
+	os.path.exists(name), "File not created")
 
 # File marks:
-'0  1  0  ~/NERD_tree_2
-'1  19  0  ~/NERD_tree_2
-'2  1  0  ~/.gitconfig
-'3  2657  0  ~/.git_config_completion
-'4  2657  0  ~/.git_completion
-'6  338  32  ~/Desktop/facebook_profile_import.csv
-'7  15  214  ~/Desktop/matched_facebook_profiles.csv
-'8  62  219  ~/Desktop/unpublished_items_not_deleted.csv
-'9  4236  0  ~/Desktop/unpublished_items_deleted.csv
+'0  21  22  ~/Desktop/test.py
+'1  22  0  ~/Desktop/test.py
+'2  14  0  ~/Desktop/test.py
+'3  24  18  ~/Desktop/test.py
+'4  11  18  ~/Desktop/file_stuff_test.py
+'5  10  0  ~/Desktop/file_stuff.py
+'6  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/ETL Processes/MSSQL/restore_full_mri.sql
+'7  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/ETL Processes/MSSQL/MRI_Weekly_Full_Restore.cmd
+'8  6593  12  ~/PycharmProjects/modalyst/modalyst/main2/models.py
+'9  1  22  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/README
 
 # Jumplist (newest first):
--'  1  0  ~/NERD_tree_2
--'  6  0  ~/NERD_tree_2
--'  6  0  ~/NERD_tree_1
--'  1  0  ~/NERD_tree_1
--'  10  0  ~/NERD_tree_2
--'  10  0  ~/NERD_tree_1
--'  19  0  ~/NERD_tree_2
--'  21  2  ~/NERD_tree_2
--'  15  2  ~/NERD_tree_1
--'  1  0  ~/.gitconfig
--'  2657  0  ~/.git_config_completion
--'  1  0  ~/.git_config_completion
--'  2657  0  ~/.git_completion
--'  1  0  ~/.git_completion
--'  22  2  ~/NERD_tree_2
--'  27  2  ~/NERD_tree_1
--'  1  0  ~/Desktop/todos2.txt
--'  1  0  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/front/trending_items.html
--'  19  0  ~/Desktop/NERD_tree_1
--'  111  4  ~/Desktop/NERD_tree_1
--'  1  0  ~/Desktop/NERD_tree_1
--'  13  0  ~/Desktop/todos.txt
--'  15  31  ~/Desktop/todos.txt
--'  14  2  ~/Desktop/todos.txt
--'  7  0  ~/Desktop/todos.txt
--'  6  0  ~/Desktop/todos.txt
--'  1  0  ~/Desktop/todos.txt
--'  338  32  ~/Desktop/facebook_profile_import.csv
--'  1  0  ~/Desktop/facebook_profile_import.csv
--'  351  0  ~/Desktop/facebook_profile_import.csv
--'  12  27  ~/Desktop/facebook_profile_import.csv
--'  382  34  ~/Desktop/facebook_profile_import.csv
--'  22  28  ~/Desktop/facebook_profile_import.csv
--'  383  34  ~/Desktop/facebook_profile_import.csv
--'  15  214  ~/Desktop/matched_facebook_profiles.csv
--'  1  0  ~/Desktop/matched_facebook_profiles.csv
--'  62  219  ~/Desktop/unpublished_items_not_deleted.csv
--'  1  0  ~/Desktop/unpublished_items_not_deleted.csv
--'  4236  0  ~/Desktop/unpublished_items_deleted.csv
--'  1  0  ~/Desktop/unpublished_items_deleted.csv
--'  12  37  ~/Downloads/facebook_urls.csv
--'  1  0  ~/Downloads/facebook_urls.csv
--'  1  0  ~/Desktop/get_facebook_pages.py
--'  21  7  ~/Desktop/get_facebook_pages.py
--'  1  0  ~/Desktop/items_unpublished.csv
--'  30336  0  ~/Desktop/items_unpublished.csv
--'  1984  8  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/models.py
--'  1918  0  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/models.py
--'  1  0  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/models.py
--'  9  7  ~/Desktop/todo.txt
--'  1  0  ~/Desktop/todo.txt
--'  1  0  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/ls
--'  1  0  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/about_us.html
--'  1  0  ~/PycharmProjects/modalyst_django/Vagrantfile
--'  1  0  ~/Desktop/follows.csv
--'  4910  0  ~/Desktop/follows.csv
--'  3536  0  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  146  8  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  3  0  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  1  0  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  147  21  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  133  5  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  3518  74  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  3517  32  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  3439  74  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  3437  32  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  3085  17  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  345  8  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  420  132  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  3421  0  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  131  30  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/urls.py
--'  130  46  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/urls.py
--'  58  2  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/urls.py
--'  3418  3  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  3417  48  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  3449  0  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
--'  121  32  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/urls.py
--'  15  0  ~/NERD_tree_2
--'  17  2  ~/NERD_tree_2
--'  11  2  ~/NERD_tree_1
--'  1  0  ~/.gitconfig
--'  2657  0  ~/.git_config_completion
--'  1  0  ~/.git_config_completion
--'  2657  0  ~/.git_completion
--'  1  0  ~/.git_completion
--'  18  2  ~/NERD_tree_2
--'  23  2  ~/NERD_tree_1
--'  1  0  ~/Desktop/todos2.txt
--'  1  0  ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/front/trending_items.html
--'  19  0  ~/Desktop/NERD_tree_1
--'  111  4  ~/Desktop/NERD_tree_1
--'  1  0  ~/Desktop/NERD_tree_1
--'  13  0  ~/Desktop/todos.txt
--'  15  31  ~/Desktop/todos.txt
+-'  21  22  ~/Desktop/test.py
+-'  1  0  ~/Desktop/test.py
+-'  22  0  ~/Desktop/test.py
+-'  20  33  ~/Desktop/test.py
+-'  18  40  ~/Desktop/test.py
+-'  17  33  ~/Desktop/test.py
+-'  14  0  ~/Desktop/test.py
+-'  13  23  ~/Desktop/test.py
+-'  10  16  ~/Desktop/test.py
+-'  12  30  ~/Desktop/test.py
+-'  11  64  ~/Desktop/test.py
+-'  9  26  ~/Desktop/test.py
+-'  8  20  ~/Desktop/test.py
+-'  7  0  ~/Desktop/test.py
+-'  24  18  ~/Desktop/test.py
+-'  11  18  ~/Desktop/file_stuff_test.py
+-'  8  18  ~/Desktop/file_stuff_test.py
+-'  1  0  ~/Desktop/file_stuff.py
+-'  7  29  ~/Desktop/file_stuff_test.py
+-'  5  39  ~/Desktop/file_stuff_test.py
+-'  1  0  ~/Desktop/file_stuff_test.py
+-'  10  0  ~/Desktop/file_stuff.py
+-'  9  12  ~/Desktop/file_stuff.py
+-'  4  22  ~/Desktop/file_stuff.py
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/ETL Processes/MSSQL/restore_full_mri.sql
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/ETL Processes/MSSQL/MRI_Weekly_Full_Restore.cmd
+-'  6593  12  ~/PycharmProjects/modalyst/modalyst/main2/models.py
+-'  6599  6  ~/PycharmProjects/modalyst/modalyst/main2/models.py
+-'  6614  4  ~/PycharmProjects/modalyst/modalyst/main2/models.py
+-'  1  0  ~/PycharmProjects/modalyst/modalyst/main2/models.py
+-'  2945  4  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  2883  8  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  2871  4  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  1989  76  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  1985  11  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  1979  12  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  1393  36  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  1310  46  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  1294  26  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  1292  26  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  29  47  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  3317  4  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  1  0  ~/PycharmProjects/modalyst/modalyst/main2/views.py
+-'  1  22  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/README
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/requirements.txt
+-'  49  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/requirements.txt
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/.gitignore
+-'  190  4  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Interfaces/ADP/ADPTimeCards.py
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Interfaces/ADP/ADPTimeCards.py
+-'  115  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/biportal/SpaceTree1.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/biportal/SpaceTree1.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/biportal/about.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/biportal/Maintenance.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/map.html
+-'  8  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/NERD_tree_2
+-'  43  2  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/NERD_tree_2
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/NERD_tree_2
+-'  5  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/NERD_tree_1
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/NERD_tree_1
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/accounts/update.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/accounts/register.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/accounts/profile.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/accounts/logout.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/accounts/login.html
+-'  58  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/RGraph1.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/RGraph1.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/RGraph
+-'  18  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/base.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/base.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/AreaChart.html
+-'  19  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/AreaChart.html
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/Sunburst.css
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/base.css
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/NERD_tree_2
+-'  17  2  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/NERD_tree_2
+-'  17  2  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/NERD_tree_1
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/NERD_tree_1
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/main.css
+-'  43  16  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/demand.js
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/demand.js
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/finance.js
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/init.js
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/barchart2.js
+-'  143  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/barchart1.js
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/barchart1.js
+-'  64  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/availApts.js
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/availApts.js
+-'  146  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/areachart.js
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/areachart.js
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/gooeymenu.js
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/summary.js
+-'  106  10  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/summary.js
+-'  57  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/script.js
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/script.js
+-'  17  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/spacetree1.js
+-'  1  0  ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/spacetree1.js
 
 # History of marks within files (newest to oldest):
 
-> ~/NERD_tree_1
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/NERD_tree_2
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/.gitconfig
-	"	1	0
-
-> ~/.git_config_completion
-	"	2657	0
-
-> ~/.git_completion
-	"	2657	0
-
-> ~/Code/learn/Programming_inC/micro-webserver.c
-	"	76	4
-	^	335	1
-	.	335	0
-	+	1	61
-	+	335	0
-
-> ~/Code/learn/Programming_inC/test2.c
-	"	1	0
-	^	14	1
-	.	14	0
-	+	14	0
-
-> /usr/share/vim/vim73/doc/help.txt
-	"	55	0
-
-> ~/Code/learn/Programming_inC/a.out
-	"	1	0
-
-> ~/.vimrc
-	"	5	0
-	^	128	0
-	.	127	0
-	+	129	1
-	+	127	0
-
-> ~/Code/learn/Programming_inC/test.c
-	"	1	0
-	.	19	0
-	+	1	18
-	+	18	1
-	+	19	0
-
-> ~/~.ssh
-	"	1	0
-	.	1	0
-	+	1	2
-	+	1	12
-	+	1	14
-	+	1	21
-	+	1	3
-	+	1	3
-	+	1	0
-
-> ~/.ssh/config
-	"	14	23
-	^	14	24
-	.	14	23
-	+	14	23
-
-> ~/Code/code_blocks_projects/test.cpp
-	"	11	22
-	^	11	23
-	.	11	22
-	+	10	120
-	+	1	24
-	+	9	9
-	+	14	0
-	+	10	111
-	+	10	27
-	+	11	17
-	+	10	0
-	+	1	0
-	+	1	21
-	+	2	16
-	+	1	18
-	+	5	16
-	+	7	52
-	+	1	0
-	+	9	8
-	+	11	22
-
-> ~/Desktop/todos.txt
-	"	13	0
-	.	22	0
-	+	1	84
-	+	2	0
-	+	2	0
-	+	2	65
-	+	2	0
-	+	3	0
-	+	2	0
-	+	1	0
-	+	6	0
-	+	14	0
-	+	14	4
-	+	6	74
-	+	8	0
-	+	14	0
-	+	7	0
-	+	14	48
-	+	14	23
-	+	14	48
-	+	14	71
-	+	15	34
-	+	24	0
-	+	15	34
-	+	15	0
-	+	15	34
-	+	16	0
-	+	21	0
-	+	20	3
-	+	14	0
-	+	14	0
-	+	14	29
-	+	14	0
-	+	2	0
-	+	2	0
-	+	6	0
-	+	7	0
-	+	15	0
-	+	21	9
-	+	21	13
-	+	21	0
-	+	21	13
-	+	21	5
-	+	21	5
-	+	21	15
-	+	21	12
-	+	21	11
-	+	21	0
-	+	21	0
-	+	21	15
-	+	21	0
-	+	21	6
-	+	21	0
-	+	21	6
-	+	21	7
-	+	21	13
-	+	21	6
-	+	21	0
-	+	21	0
-	+	21	0
-	+	21	0
-	+	14	71
-	+	14	0
-	+	24	95
-	+	21	0
-	+	21	0
-	+	15	54
-	+	8	0
-	+	14	0
-	+	15	0
-	+	14	0
+> ~/Desktop/test.py
+	"	21	22
+	^	21	23
+	.	21	22
+	+	24	18
+	+	7	26
+	+	9	11
+	+	8	20
+	+	9	27
+	+	11	64
 	+	13	0
-	+	12	3
-	+	14	1
-	+	13	1
-	+	15	1
-	+	14	19
+	+	12	30
+	+	10	16
+	+	13	63
 	+	14	0
-	+	23	0
-	+	24	0
-	+	17	0
-	+	14	0
+	+	18	26
+	+	17	33
+	+	18	41
+	+	22	18
+	+	19	0
+	+	21	0
 	+	22	0
-
-> ~/Desktop/todos2.txt
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Desktop/matches.txt
-	"	351	0
-
-> ~/Desktop/facebook_profile_import.csv
-	"	87	0
-	^	1	18
-	.	350	0
-	+	1	0
-	+	1	0
-	+	383	34
-	+	1	0
-	+	1	0
-	+	1	18
-	+	2	0
-	+	350	0
-
-> ~/Desktop/test.json
-	"	1	105
-	^	1	297
-	.	1	0
-	+	1	0
-
-> ~/Desktop/NERD_tree_1
-	"	19	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/front/trending_items.html
-	"	1	0
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/NERD_tree_2
-	"	11	0
-	.	1	0
-	+	1	0
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/includes/display_item.inc
-	"	1	0
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/NERD_tree_3
-	"	19	0
-	.	1	0
-	+	1	0
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/site_media/css/items.css
-	"	1	0
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/front_base2.html
-	"	12	35
-	^	12	36
-	.	12	35
-	+	12	35
-
-> ~/Desktop/kissmetrics.txt
-	"	255590	0
-	.	1	0
-	+	1	0
-	+	1	0
-
-> ~/Desktop/km/fix/kissmetrics-splitam.json
-	"	1	0
-	^	9004	39
-	.	9004	39
-	+	2	39
-	+	2	286
-	+	2	0
-	+	2	286
-	+	3	39
-	+	4	46
-	+	9004	39
-
-> ~/Desktop/km/kissmetrics-splitaa.json
-	"	3008	24
-	.	28	256
-	+	1	0
-	+	21	0
-	+	1	0
-	+	21	0
-	+	1	0
-	+	23334	0
-	+	28	256
-
-> ~/Desktop/km/kissmetrics-splital.json
-	"	4442	0
-	^	1	76
-	.	4442	0
-	+	1	0
-	+	1	76
-	+	2	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	19532	0
-	+	459	0
-	+	976	0
-	+	4442	0
-
-> ~/Desktop/km/kissmetrics-splitak.json
-	"	19547	0
-	^	1	600
-	.	896	0
-	+	1	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	19614	0
-	+	544	0
-	+	924	0
-	+	896	0
-
-> ~/Desktop/km/kissmetrics-splitai.json
-	"	16728	0
-	^	1	344
-	.	16728	0
-	+	1	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	16	0
-	+	2	0
-	+	1	0
-	+	203	0
-	+	5651	0
-	+	16728	0
-
-> ~/Desktop/km/kissmetrics-splitah.json
-	"	17778	0
-	^	1	222
-	.	1989	0
-	+	1	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	20118	0
-	+	79	0
-	+	1989	0
-
-> ~/Desktop/km/kissmetrics-splitag.json
-	"	16445	0
-	^	1	391
-	.	748	0
-	+	1	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	6	0
-	+	2	0
-	+	1	0
-	+	19525	0
-	+	748	0
-
-> ~/Desktop/km/kissmetrics-splitaf.json
-	"	19824	0
-	^	1	280
-	.	750	0
-	+	1	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	19844	0
-	+	750	0
-
-> ~/Desktop/km/kissmetrics-splitac.json
-	"	4004	0
-	^	1	377
-	.	1374	0
-	+	1	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	1	0
-	+	2	0
-	+	21657	0
-	+	567	143
-	+	1122	0
-	+	1374	0
-
-> ~/Desktop/km/kissmetrics-splitae.json
-	"	2732	0
-	^	1	63
-	.	2732	0
-	+	1	0
-	+	1	63
-	+	2	0
-	+	1	0
-	+	12	0
-	+	2	0
-	+	19677	0
-	+	1	0
-	+	2732	0
-
-> ~/Desktop/km/kissmetrics-splitab.json
-	"	719	1
-	^	1006	395
-	.	1690	0
-	+	1	0
-	+	3	0
-	+	1	0
-	+	23037	0
-	+	271	238
-	+	1002	437
-	+	1003	441
-	+	1004	395
-	+	1005	399
-	+	1006	395
-	+	1690	0
-
-> ~/Desktop/km/kissmetrics-splitad.json
-	"	1	0
-	^	689	878
-	.	689	875
-	+	1	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	7	0
-	+	20548	0
-	+	1	0
-	+	689	219
-	+	689	552
-	+	689	875
-
-> ~/Desktop/km/kissmetrics-splitam.json
-	"	477	402
-	^	1	219
-	.	2	0
-	+	1	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	1	0
-	+	2	0
-
-> ~/Desktop/km/kissmetrics-splitaj.json
-	"	1	0
-	.	19886	0
-	+	1	0
-	+	2	0
-	+	19886	0
-
-> ~/Desktop/km/test.json
-	"	2	344
-	^	2	345
-	.	2	344
-	+	3	0
-	+	2	0
-	+	3	0
-	+	1	38
-	+	2	51
-	+	2	344
-
-> ~/Desktop/mixpanel.txt
-	"	255590	0
-	.	4	0
-	+	4	23
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	49
-	+	4	44
-	+	4	33
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	9
-	+	4	0
-	+	14	18
-	+	4	14
-	+	4	34
-	+	4	6
-	+	4	34
-	+	4	0
-	+	14	0
-	+	14	0
-	+	4	0
-	+	4	0
-	+	4	16
-	+	4	0
-	+	18	0
-	+	36	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	1	0
-	+	20	0
-	+	21	0
-	+	1	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	21	0
-	+	21	0
-	+	4	0
-	+	4	0
-	+	21	0
-	+	21	0
+	+	21	34
 	+	20	33
-	+	21	0
-	+	19	0
-	+	18	0
-	+	15	32
-	+	16	32
-	+	14	0
-	+	12	31
-	+	11	31
-	+	4	0
-	+	3	0
-	+	1	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	23	0
-	+	5	0
-	+	4	0
-	+	4	0
-	+	25	20
-	+	26	0
-	+	36	0
-	+	28	11
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	29	0
-	+	30	6
-	+	4	0
-	+	4	0
-	+	34	0
-	+	35	0
-	+	4	0
+	+	21	72
+	+	22	0
+	+	21	22
+	z	21	22
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/output.csv
-	"	14	46
+> ~/Desktop/file_stuff_test.py
+	"	11	18
+	^	11	19
+	.	11	18
+	+	5	43
+	+	7	26
+	+	8	18
+	+	5	43
+	+	11	18
+	z	11	18
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/eml_to_spreadsheet.py
-	"	18	16
-	^	18	17
-	.	18	16
-	+	1	36
-	+	42	18
-	+	5	44
-	+	42	0
-	+	10	27
-	+	42	0
-	+	42	15
-	+	42	11
-	+	11	13
-	+	42	0
-	+	42	0
-	+	28	31
-	+	31	35
-	+	42	0
-	+	12	24
-	+	27	10
-	+	12	14
-	+	27	0
-	+	27	0
-	+	28	22
-	+	24	19
-	+	42	0
-	+	26	16
-	+	42	13
-	+	5	29
-	+	12	24
-	+	31	42
-	+	7	14
-	+	42	0
-	+	33	27
-	+	42	0
-	+	2	0
-	+	1	12
-	+	42	34
-	+	42	0
-	+	42	0
-	+	3	0
-	+	34	13
-	+	37	31
-	+	38	37
-	+	41	0
-	+	38	42
-	+	40	31
-	+	38	41
-	+	8	8
-	+	32	39
-	+	31	31
-	+	30	32
-	+	31	26
-	+	32	27
-	+	36	15
-	+	40	10
-	+	39	17
-	+	13	33
-	+	14	17
-	+	16	17
-	+	20	17
-	+	21	30
-	+	22	16
-	+	17	34
-	+	18	16
-	z	18	16
+> ~/Desktop/file_stuff.py
+	"	1	0
+	.	11	0
+	+	1	9
+	+	4	23
+	+	9	13
+	+	11	0
+	z	10	0
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/GYB-GMail-Backup-matthew@modalyst.co/2014/5/6/11-12752.eml
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/ETL Processes/MSSQL/restore_full_mri.sql
 	"	1	0
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/GYB-GMail-Backup-matthew@modalyst.co/2014/5/6/11-12763.eml
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/ETL Processes/MSSQL/MRI_Weekly_Full_Restore.cmd
 	"	1	0
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/GYB-GMail-Backup-matthew@modalyst.co/2014/5/6/11-12753.eml
+> ~/PycharmProjects/modalyst/modalyst/main2/views.py
+	"	2945	4
+
+> ~/PycharmProjects/modalyst/modalyst/main2/models.py
+	"	6593	12
+
+> ~/PycharmProjects/modalyst/modalyst/main2/forms.py
 	"	1	0
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/GYB-GMail-Backup-matthew@modalyst.co/2014/5/5/11-11367.eml
+> ~/PycharmProjects/modalyst/.gitignore
 	"	1	0
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/GYB-GMail-Backup-matthew@modalyst.co/2014/4/8/11-5060.eml
-	"	20	0
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/README
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	22
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/GYB-GMail-Backup-matthew@modalyst.co/2014/5/5/11-11458.eml
-	"	20	0
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/requirements.txt
+	"	1	0
+	.	50	0
+	+	49	21
+	+	50	0
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/GYB-GMail-Backup-matthew@modalyst.co/2014/5/6/11-12632.eml
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/.gitignore
 	"	1	0
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/GYB-GMail-Backup-matthew@modalyst.co/2014/3/20/11-2974.eml
-	"	61	0
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Interfaces/ADP/ADPTimeCards.py
+	"	190	4
 
-> YB-GMail-Backup-matthew@modalyst.co/2014//3/20/11-2974.eml
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/biportal/SpaceTree1.html
+	"	115	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/biportal/about.html
 	"	1	0
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/email-list.txt
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/biportal/Maintenance.html
 	"	1	0
 
-> ~/email-list.txt
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/map.html
 	"	1	0
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/GYB-GMail-Backup-matthew@modalyst.co/2014/5/6/11-12551.eml
-	"	62	0
-
-> ~/Downloads/gyb-alpha-20-python-src.zip/NERD_tree_1
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/NERD_tree_1
 	"	1	0
 	.	1	0
 	+	1	0
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/NERD_tree_2
-	"	5	0
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/NERD_tree_2
+	"	8	0
 	.	1	0
 	+	1	0
 	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
 
-> ~/Downloads/gyb-alpha-20-python-src.zip/setup.py
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/accounts/update.html
 	"	1	0
 
-> ~/Desktop/matched_facebook_profiles.csv
-	"	15	214
-
-> ~/Desktop/unpublished_items_not_deleted.csv
-	"	62	219
-
-> ~/Desktop/unpublished_items_deleted.csv
-	"	4236	0
-
-> ~/Downloads/facebook_urls.csv
-	"	12	37
-
-> ~/Desktop/get_facebook_pages.py
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/accounts/register.html
 	"	1	0
 
-> ~/Desktop/items_unpublished.csv
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/accounts/profile.html
 	"	1	0
 
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/models.py
-	"	1984	8
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/accounts/logout.html
+	"	1	0
 
-> ~/Desktop/userprofile.csv
-	"	13	36
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/accounts/login.html
+	"	1	0
 
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/ls
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/RGraph1.html
+	"	58	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/RGraph
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/base.html
+	"	18	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/templates/AreaChart.html
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/Sunburst.css
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/base.css
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/NERD_tree_1
 	"	1	0
 	.	1	0
 	+	1	0
 
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/about_us.html
-	"	1	0
-
-> ~/PycharmProjects/modalyst_django/Vagrantfile
-	"	1	0
-	^	14	15
-	.	14	14
-	+	13	1
-	+	15	2
-	+	14	14
-
-> ~/Desktop/follows.csv
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/NERD_tree_2
 	"	1	0
 	.	1	0
 	+	1	0
 
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/views.py
-	"	3536	0
-	^	147	22
-	.	147	21
-	+	453	36
-	+	458	36
-	+	71	0
-	+	453	0
-	+	458	0
-	+	463	36
-	+	468	0
-	+	468	0
-	+	470	0
-	+	482	58
-	+	144	42
-	+	144	47
-	+	149	7
-	+	149	0
-	+	148	23
-	+	150	0
-	+	144	0
-	+	145	3
-	+	3546	0
-	+	416	0
-	+	417	48
-	+	417	87
-	+	3470	0
-	+	3561	0
-	+	145	55
-	+	3436	0
-	+	146	36
-	+	148	88
-	+	146	43
-	+	3516	0
-	+	3517	14
-	+	3517	59
-	+	3518	15
-	+	3517	15
-	+	3518	34
-	+	3519	16
-	+	3520	15
-	+	3518	0
-	+	3518	87
-	+	3439	0
-	+	3437	17
-	+	3441	0
-	+	3441	0
-	+	3437	55
-	+	3438	55
-	+	3439	109
-	+	3438	60
-	+	3517	50
-	+	3437	0
-	+	3437	0
-	+	144	0
-	+	3437	0
-	+	3517	0
-	+	3518	0
-	+	3445	41
-	+	148	91
-	+	3445	41
-	+	3447	15
-	+	3450	7
-	+	3447	11
-	+	3445	39
-	+	3447	17
-	+	3451	14
-	+	3447	15
-	+	3448	35
-	+	3451	0
-	+	3448	36
-	+	3449	8
-	+	3451	0
-	+	148	102
-	+	3448	12
-	+	3417	48
-	+	3418	1
-	+	3422	0
-	+	3418	3
-	+	3421	35
-	+	420	130
-	+	421	0
-	+	420	132
-	+	147	21
-	z	3536	0
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/settings_local.py
-	"	28	0
-	^	28	18
-	.	28	17
-	+	24	11
-	+	24	11
-	+	31	0
-	+	24	0
-	+	21	11
-	+	24	0
-	+	30	0
-	+	24	17
-	+	25	0
-	+	30	0
-	+	30	0
-	+	26	25
-	+	30	0
-	+	2	0
-	+	28	17
-	z	28	17
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/urls.py
-	"	131	30
-	^	130	47
-	.	131	30
-	+	58	31
-	+	130	46
-	+	131	30
-	z	131	30
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/model_generic_trending.py
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/main.css
 	"	1	0
 
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/manage.py
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/demand.js
+	"	43	16
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/finance.js
 	"	1	0
 
-> ~/PycharmProjects/modalyst_django/modalyst/requirements.txt
-	"	28	10
-	.	28	0
-	+	28	0
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/main2/forms.py
-	"	132	8
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/splash2.html
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/init.js
 	"	1	0
 
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/external/splash_designer_signup.html
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/barchart2.js
 	"	1	0
 
-> ~/PycharmProjects/modalyst_django/modalystls
-	"	1	2
-	^	1	3
-	.	1	2
-	+	1	2
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/barchart1.js
+	"	143	0
 
-> ~/Code/sunfish/sunfish.py
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/availApts.js
+	"	64	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/areachart.js
+	"	146	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/gooeymenu.js
 	"	1	0
 
-> ~/.bash_profile
-	"	121	31
-	^	121	32
-	.	121	32
-	+	116	20
-	+	115	25
-	+	120	50
-	+	121	21
-	+	1	0
-	+	121	32
-
-> ~/Code/sunfish/sunfish.6
-	"	75	0
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/thankyou.html
-	"	1	0
-	^	11	4
-	.	11	3
-	+	1	23
-	+	4	0
-	+	13	0
-	+	17	0
-	+	6	42
-	+	7	42
-	+	13	0
-	+	13	0
-	+	18	0
-	+	8	1
-	+	11	3
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/video.html
-	"	5	0
-
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/templates2/splash/success.html
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/summary.js
 	"	1	0
 
-> ~/.screenrc
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/script.js
+	"	57	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/spacetree1.js
+	"	17	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/js/spacetree
 	"	1	0
 
-> ~/Code/hukkster/hukkster-django/static/js/dist/bootstrap.js
-	"	160	1
-
-> ~/Desktop/bootstrap-sass-3.1.1/README.md
-	"	163	74
-
-> ~/Code/hukkster/hukkster-django/static/css/includes/vars.scss
-	"	20	0
-
-> ~/Code/hukkster/hukkster-django/static/css/includes/mixins.scss
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/static/data/export.csv
 	"	72	0
 
-> ~/Code/hukkster/hukkster-django/static/css/includes/convenience.scss
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/PCVST/wsgi.py
 	"	1	0
 
-> ~/Code/hukkster/hukkster-django/static/css/admin.css
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/PCVST/urls.py
 	"	1	0
 
-> ~/Code/hukkster/hukkster-django/static/css/admin-django.css
-	"	2	0
-	^	2	0
-	.	2	0
-	+	2	0
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/PCVST/settings.py
+	"	172	0
 
-> ~/Code/hukkster/hukkster-django/static/css/base_site.css
-	"	5681	0
-
-> ~/Code/hukkster/hukkster-django/static/css/overrides.css
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/apps/accounts/urls.py
 	"	1	0
 
-> ~/Code/hukkster/hukkster-django/static/css/hukkster.scss
-	"	91	8
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/apps/gmapi/tests.py
+	"	46	0
 
-> ~/PycharmProjects/modalyst_django/modalyst/modalyst/modalyst/static_collected/site_media/css/styles.css
-	"	3741	0
-	^	1620	0
-	.	1619	0
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/apps/biportal/tests.py
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/apps/accounts/views.py
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/PCVST/apps/data/tests.py
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/format
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/hooks/post-commit.tmpl
+	"	50	0
+
+> ~/Desktop/Work/CompassRock/NERD_tree_1
+	"	1	0
+	.	1	0
 	+	1	0
-	+	1415	0
+
+> ~/Desktop/Work/CompassRock/NERD_tree_2
+	"	14	0
+	.	1	0
 	+	1	0
-	+	1416	0
-	+	1418	16
-	+	1422	34
-	+	1419	0
-	+	1422	4
-	+	1421	4
-	+	1420	4
-	+	1419	4
-	+	1422	29
-	+	1616	0
-	+	1619	0
-	+	1668	0
+
+> ~/Desktop/Work/CompassRock/db/rep-cache.db
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/README.txt
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/conf/svnserve.conf
+	"	61	0
+
+> ~/Desktop/Work/CompassRock/conf/authz
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/conf/passwd
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/batch/reporting/NERD_tree_1
+	"	1	0
+	.	1	0
 	+	1	0
-	+	1615	0
-	+	1619	0
-	+	1619	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/batch/reporting/NERD_tree_2
+	"	5	3
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/Project/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/Project/NERD_tree_2
+	"	11	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/Project/PCVST/urls.py
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/Project/PCVST/views.py
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/Project/PCVST/models.py
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/Project/Project/__init__.py
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Portal Development/Project/Project/settings.py
+	"	98	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/Interfaces/ADP/ADPTimeCards.
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/ETL Processes/MSSQL/Corrigo_Friday_Restore.cmd
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/batch/reporting/RDE/RDEReport.py
+	"	1103	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/batch/reporting/ARAging/ARAgingReport.py
+	"	243	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/batch/dataCleanup/processDataCleanupTasks.py
+	"	126	5
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/batch/dataCleanup/processDataCleanupTasks.ksh
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/batch/dataCleanup/commands.sql
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/BuildScripts/MSSQL/Corrigo_Friday_Restore.cmd
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/BuildScripts/FTP/Keys/frogers.pub
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/BuildScripts/FTP/corrigo_ftp.cfg
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/BuildScripts/FTP/corrigo_ftp.cmd
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/PCVST Data Warehouse/BuildScripts/ai_card_access_main.ps1
+	"	126	0
+
+> ~/Desktop/Work/CompassRock/Amazigh Big Data/SocialMedia/FaceBook/test11.py
+	"	75	0
+
+> ~/Desktop/Work/CompassRock/Amazigh Big Data/SocialMedia/FaceBook/test.py
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/Unix Utilities/mon_srv.ksh
+	"	37	0
+
+> ~/Desktop/Work/CompassRock/Unix Utilities/Ofiles.sh
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/Unix Utilities/bounce_inet
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/Unix Utilities/chg_all.sh
+	"	1	0
+
+> ~/Desktop/Work/CompassRock/Unix Utilities/MobileComm.java
+	"	85	2
+
+> ~/Desktop/Work/CompassRock/Unix Utilities/MobileComm.
+	"	1	0
+
+> ~/.subversion/servers
+	"	158	0
+
+> ~/.subversion/config
+	"	140	0
+
+> ~/.ssh/config
+	"	39	40
+	^	39	41
+	.	39	40
+	+	14	27
+	+	19	52
+	+	21	0
+	+	25	0
+	+	30	0
+	+	40	0
+	+	21	20
+	+	23	33
+	+	22	14
+	+	24	29
+	+	29	40
+	+	26	19
+	+	28	13
+	+	33	17
+	+	31	22
+	+	21	7
+	+	26	7
+	+	31	7
+	+	40	0
+	+	34	0
+	+	40	0
+	+	34	45
+	+	36	7
+	+	38	17
+	+	27	14
+	+	32	14
+	+	37	14
+	+	39	40
+
+> ~/.ssh/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.ssh/NERD_tree_2
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Projects/modalyst/modalyst/modalyst/main2/management/commands/retailer_cohort_report.py
+	"	73	16
+
+> ~/.pgpass
+	"	1	0
+
+> ~/Projects/modalyst/modalyst/.git/MERGE_MSG
+	"	1	0
+	^	1	32
+	.	1	12
+	+	1	12
