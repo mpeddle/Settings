@@ -1,7 +1,3 @@
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:~/bin:~/Code/scripts:/usr/local/go/bin
-
-[[ -s /Users/mpeddle/.nvm/nvm.sh ]] && . /Users/mpeddle/.nvm/nvm.sh # This loads NVM
-
 alias ll='ls -alt'
 alias ge='grep -r '$1' . | grep -v test | grep -v migration'
 
@@ -34,8 +30,6 @@ function killmatch {
 ### ALIASES
 ###---------------------------------------------------------------------------
 
-alias cdm='cd /Users/mpeddle/Projects/modalyst/modalyst'
-
 alias sudo='sudo '     # allows you to pass aliases to sudo
 alias rm='rm -iv'
 alias cp='cp -iv'
@@ -64,23 +58,6 @@ alias gpl='git pull'
 alias gr='git remote -v'
 alias gs='git status'
 alias gu='git up'
-
-# Django/Python aliases
-alias pipup='pip install --upgrade'
-alias dj='python manage.py'
-alias djr='python manage.py runserver_plus'
-alias djs='python manage.py shell_plus'
-alias djsp='workon hukkster; cdh; cd src/hukkster-django; python manage.py shell_plus'
-alias djserver='workon hukkster; cdh; cd src/hukkster-django; djr 8101'
-alias djhub='workon hukkster; cdh; cd src/hukkster-hub; djr 8102'
-
-# Salt Aliases
-alias saltme='sudo -E salt-call'
-alias saltit='saltme state.sls '
-alias devon='saltit packages.circus.dev_mode_on'
-alias devoff='saltit packages.circus.dev_mode_off'
-alias saltall='saltme state.highstate'
-alias updatesaltmaster='ssh inf-saltmaster.hukkdev.com "cd /srv/deploy; sudo -E git pull"'
 
 # system monitoring
 #alias topcpu='ps aux | sort -n -k 2 | tail -10' # top 10 cpu processes
@@ -116,17 +93,6 @@ export HISTFILESIZE=100000
 export HISTSIZE=100000
 export HISTCONTROL=erasedups
 
-#modalyst config
-alias cdmod='cd ~/Projects/modalyst/modalyst'
-alias gomod='cdmod; source ../bin/activate'
-
-#postgres
-alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
-alias pg-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
-
-#alias memory_usage='ps -u $USER -o pcpu,rss | awk 'NR>1' | awk '\''{cpu += $1; rss += $2} END {print cpu, rss}'\'''
-
-export NEW_RELIC_DISABLE='TRUE'
 source ~/git-complete.bash
 source ~/.profile
 export GOPATH=$HOME/go
