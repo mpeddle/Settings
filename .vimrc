@@ -12,8 +12,11 @@ set ruler
 " Height of the command bar
 set cmdheight=2
 
-" A buffer becomes hidden when it is abandoned
-set hid
+" --- performance / buffer ---
+set hidden                  " can put buffer to the background without writing
+                            "   to disk, will remember history/marks.
+set lazyredraw              " don't update the display while executing macros
+set ttyfast                 " Send more characters at a given time.
 
 " Configure backspace so it acts as it should act
 set backspace=eol,start,indent
@@ -61,6 +64,9 @@ set magic
 " Show matching brackets when text indicator is over them
 set showmatch
 
+" Set the window’s title, reflecting the file currently being edited.
+set title
+
 " Smart way to move between windows
 map <C-j> <C-W>j
 map <C-k> <C-W>k
@@ -91,7 +97,6 @@ func! DeleteTrailingWS()
   exe "normal `z"
 endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
-autocmd BufWrite *.coffee :call DeleteTrailingWS()
 
 set softtabstop=4
 set expandtab
@@ -100,10 +105,8 @@ set shiftwidth=4
 set tabstop=4
 set nu
 
-set rtp+={/Users/mpeddle/.vim/bundle/powerline}/powerline/bindings/vim
-
 " NERDTREE
-map <C-n> :NERDTreeToggle<CR>
+map <C-o> :NERDTreeToggle<CR>
 
 " Mappings to access buffers (don't use "\p" because a
 " delay before pressing "p" would accidentally paste).
@@ -124,6 +127,8 @@ nnoremap <Leader>7 :7b<CR>
 nnoremap <Leader>8 :8b<CR>
 nnoremap <Leader>9 :9b<CR>
 nnoremap <Leader>0 :10b<CR>
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " It's useful to show the buffer number in the status line.
 " set laststatus=2 statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
